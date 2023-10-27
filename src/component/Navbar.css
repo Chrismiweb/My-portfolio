@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+.pages{
+    display: flex;
+    gap: 25px;
+}
+.pages a{
+    text-decoration: none;
+}
+.pages a p{
+    color: #FFFFFFCC;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pages a p:hover{
+    color: rgb(255, 53, 86);
+    transition: 0.5s ease-in-out;
+}
+.logo img{
+    width: 60%;    
+}
+
