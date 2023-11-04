@@ -37,11 +37,19 @@
         background-color: black;
         padding: 10px 10px;
         border-radius: 5px;
-        border: 2px solid white;
+        border: 1px solid white;
 }
 .project-skills button:focus{
     background-color: rgb(255, 53, 86) ;
 }
 .project-skills button:active{
     background-color: rgb(255, 53, 86) ;
+}
+.hello1{
+    height: 100px;
+    overflow: hidden;
+}
+.hello2{
+    height: 0px;
+    overflow: hidden;
 }
