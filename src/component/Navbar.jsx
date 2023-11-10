@@ -8,11 +8,11 @@ function Navbar() {
   return (
    <nav className='navbar'>
        <div className='logo'>
-            <img src={logo} alt="" />
+            <Link to={'/'}><img src={logo} alt="" /></Link>
        </div>
        <div className='pages'>
             <Link to={'/'}><p>Home</p></Link>
-            <a href="#"><p>About Me</p></a>
+            <Link to={'/AboutPage'}><p>About Me</p></Link>
             <Link to={'/Allproject'}><p>Projects</p></Link>
             <a href="#"><p>Contact</p></a>
         </div>

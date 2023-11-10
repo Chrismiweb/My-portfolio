@@ -15,6 +15,8 @@ function Project() {
                 <a href=""><button>React</button></a>
                 <a href=""><button>Wordpress</button></a>
                 <a href=""><button>APIs</button></a>
+                <a href=""><button>Redux</button></a>
+
             </div>
             
        </div>

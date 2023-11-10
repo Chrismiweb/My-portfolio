@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div className='section1'>
@@ -25,8 +26,15 @@ function Home() {
                   the rhythm of Pop Music & Jazz, 
                   losing myself in the captivating flow of melodies. anyways you can CONTACT ME
             </p>
-            <a href="#3"><h4>See More About Me -> </h4></a>
+            <Link to={'/AboutPage'}><h4>See More About Me -> </h4></Link>
+            <div>
+              <a href=""><button>linkedIn</button></a>
+              <a href=""><button>github</button></a>
+              <a href=""><button>instagram</button></a>
 
+
+
+            </div>
                 
         </div>
     </div>

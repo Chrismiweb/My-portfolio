@@ -4,6 +4,7 @@ import { IoLogoCss3 } from 'react-icons/io';
 import { RiJavascriptLine } from 'react-icons/ri';
 import { GrReactjs } from 'react-icons/gr';
 import { TbBrandTailwind } from 'react-icons/tb';
+import {BiLogoRedux} from 'react-icons/bi'
 
 import './Skills.css';
 
@@ -28,6 +29,10 @@ function Skills() {
     {
       icon: <TbBrandTailwind />,
       language: 'Tailwind',
+    },
+    {
+      icon: <BiLogoRedux />,
+      language: 'Redux',
     },
   ];
 

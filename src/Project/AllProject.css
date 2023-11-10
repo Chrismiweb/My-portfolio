@@ -15,8 +15,13 @@
     align-items: center;
     grid-template-columns: 1fr 1fr ;
     padding: 50px 0px;
+    overflow: hidden;
 }
-
+.video-player-border{
+    width: 100%;
+    background-color: salmon;
+    overflow: hidden;
+}
 .video-player{
     width: 100%;
     height: 450px;
@@ -25,10 +30,104 @@
     align-items: center;
     border-radius: 10px;
     overflow:hidden;
-    background-color: aquamarine;
+    cursor: pointer;
  
     
 }
 .video-player video{
     height: 100%; 
 }
+.hello1{
+    width: 35%;
+    /* height: 450px; */
+    z-index: 2;
+    position: absolute;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 1)
+    );
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    padding: 300px 30px 100px 30px;
+    /* padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 80px; */
+    gap: 15px;
+    transition: 1s ease-in-out;
+}
+.hello2{
+    width: 30%;
+    height: 0px;
+    z-index: 2;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.7)
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+
+}
+.hello1 p, .hello2 p{
+    font-size: 12px;
+}
+.hello1 h1, .hello2 h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.language-btn{
+    width: 90%;
+    display: flex;
+    gap: 10px;
+}
+.language-btn button{
+    padding: 5px 8px ;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 53, 86);
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+.Visit-project{
+    /* width: 90%;
+    display: flex; */
+}
+
+.external-links{
+    display: flex;
+    width: 90%;
+    gap: 15px;
+}
+.Visit-project button{
+    padding: 5px 8px ;
+    border: none;
+    border-radius: 5px;
+    /* color: rgb(255, 53, 86); */
+    
+    background-color: rgb(105, 104, 105);
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Visit-project button:hover{
+    background-color: rgb(52, 52, 52) ;
+}
+
+
+
+
+
+
+
+
+
+
