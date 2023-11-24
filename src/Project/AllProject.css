@@ -86,6 +86,7 @@
     width: 90%;
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .language-btn button{
     padding: 5px 8px ;
@@ -105,6 +106,7 @@
     display: flex;
     width: 90%;
     gap: 15px;
+    flex-wrap: wrap;
 }
 .Visit-project button{
     padding: 5px 8px ;
@@ -125,8 +127,32 @@
 
 
 
+@media screen and (max-width: 950px) {
+    .video-section{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .hello1{
+        width: 85%;  
+        padding: 320px 15px 100px 15px;
+      
+    }
+    .hello2{
+        width: 30%;
+        height: 0px;
+       
+        
+      
+       
+       
+      
+       
+    
+    }
 
-
+}
 
 
 

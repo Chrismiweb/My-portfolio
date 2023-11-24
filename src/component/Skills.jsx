@@ -49,6 +49,8 @@ function Skills() {
     };
   }, []);
 
+  
+
   return (
     <div className="icon-slider">
       <h1>SKILLS</h1>
@@ -59,6 +61,7 @@ function Skills() {
                 className={`slide ${index === activeIndex ? 'active' : ''}`}
             >
                 {item.icon}
+
                 <p>{item.language}</p>
             </div>
             ))}

@@ -6,6 +6,8 @@ import unsplash from "../video/unsplash.mp4"
 import restaurant from "../video/restaurant.mp4"
 import github from "../video/github.mp4"
 import iphone from "../video/iphone.mp4"
+import bigabi from "../video/bigabi.mp4"
+
 
 
 
@@ -13,7 +15,7 @@ import iphone from "../video/iphone.mp4"
 function AllProject() {
   const myPrpjectVideo = [
     {
-      video: car,
+      video: bigabi,
       header: "Car Website",
       content: "In the code above, rgba(255, 0, 0, 0.5) sets the background color to red with 50% transparency. The first three values (255, 0, 0) represent the red, green, and blue components (pure red), and the last value (0.5) sets the alpha channel to 0.5, making the background 50% transparent. You can adjust the alpha value to control the level of transparency.",
       languageOne: "HTML",
@@ -36,6 +38,18 @@ function AllProject() {
       ProjectUrl: "https://chat.openai.com/c/e1bf6e8f-be35-46f3-af52-84114c184a68",
       githubUrl: "https://www.google.com/search?q=hh&rlz=1C1KNTJ_enNG1077NG1077&oq=hh&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAtIBCTIxODdqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8"
       
+    },
+    {
+      video: car,
+      header: "Car Website",
+      content: "In the code above, rgba(255, 0, 0, 0.5) sets the background color to red with 50% transparency. The first three values (255, 0, 0) represent the red, green, and blue components (pure red), and the last value (0.5) sets the alpha channel to 0.5, making the background 50% transparent. You can adjust the alpha value to control the level of transparency.",
+      languageOne: "HTML",
+      languageTwo: "CSS",
+      languageThird: "React",
+      Project: "Open Project",
+      github: "Open Github",
+      ProjectUrl: "https://www.codewonders.dev/projects",
+      githubUrl: "https://chat.openai.com/c/e1bf6e8f-be35-46f3-af52-84114c184a68"
     },
     {
       video: restaurant,
@@ -87,6 +101,7 @@ function AllProject() {
   return (
     <div className='all-project'>
         <Project/>
+        
         <div className='video-section'>
             {myPrpjectVideo.map((vid, index)=>(
                   <div className='video-player' key={index} onClick={() => toggleContent(index)}>
@@ -106,6 +121,7 @@ function AllProject() {
                             <div className='Visit-project'>
                               <a href={vid.githubUrl} rel="noreferrer" target='_blank'><button>{vid.github}</button></a>
                             </div>
+                        
                           </div>
                       </div>
                   </div>

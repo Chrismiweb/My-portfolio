@@ -11,6 +11,7 @@
   } 
   .icon-slider h1{
     color: rgb(255, 53, 86);
+    background-color:rgb(23, 23, 23) ;
 
   }
   
@@ -21,6 +22,8 @@
     display: flex;
     overflow: hidden;
     gap: 20px;
+    background-color:rgb(23, 23, 23) ;
+
   }
   
   .slide {
@@ -30,11 +33,15 @@
     justify-content: center;
     font-size: 100px;
     transition:  2s ease-in-out;
+    background-color:rgb(23, 23, 23) ;
   }
+ 
   .slide p{
     color: rgb(255, 53, 86);
     font-size: 22px;
     font-weight: bold;
+    background-color:rgb(23, 23, 23) ;
+
   }
   
   .slide.active {
@@ -46,3 +53,15 @@
     opacity: 0;
   }
   
+@media screen and (max-width:950px) {
+ .slider-content{
+  flex-wrap: wrap;
+ }
+ .slide{
+  font-size: 40px;
+  transition: 1.5s ease-in-out;
+ }
+ .slide p{
+  font-size: 20px;
+ }
+}

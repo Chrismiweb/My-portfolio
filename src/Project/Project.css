@@ -20,13 +20,13 @@
     font-size: 45px;
     font-weight: bolder;
     color: rgb(255, 53, 86);
-    
-
 }
 
 .project-skills{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -52,4 +52,20 @@
 .hello2{
     height: 0px;
     overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .project-section h1{
+        width: 90%;
+        font-size: 45px;
+        
+    }
+    .project{
+        gap: 20px;
+    }
+    .project-skills{
+        width: 90%;
+    }
 }
