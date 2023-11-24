@@ -9,16 +9,12 @@
 }
 .content-header{
     width: 70%;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.content-header h1{
-    color: white;
-    letter-spacing: 5px;
-    font-size: 40px;
-}
+
 .content-header p{
     color: #FFFFFFCC;
     font-family: 'Courier New', Courier, monospace;
@@ -51,126 +47,21 @@
     font-size: 35px;
     transition: 0.5s ease-in-out;
 }
-
-
-
 .my-name{
-    /* width: 550px; */
-    width: 100%;
-    color: #333;
-    line-height: 1.5;
-    display: flex;
-    gap: 20px;
-    text-transform: uppercase;
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-    /* background-color: red; */
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
-.my-name span{
-    font-size: 40px;
-    color: white;
+.my-name h1{
+  font-size: 34px;
 }
-.message {
-    width: 100%;
-    /* background-color: blueviolet; */
-    margin-left: 110px;
-    /* color: #333; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* display: block;
-    /* font-weight: 900; */
-    /* overflow: hidden; */
-    position: absolute;
-    /* left: 100px; */
-    /* padding-left: 0.5rem; */
-    /* transition: 5s ease-in-out; */
-    animation: openclose 5s ease-in-out infinite;
-  }
-  .word1, .word2{
-    width: 100%;
-    font-size: 40px;
-    color: rgb(255, 53, 86);
-  }
-  .word1{
-    width: 100%;
-  }
-  .word2{
-    margin-top: 12px;
-  }
+.my-name h2{
+  font-size: 34px;
+  color:rgb(255, 53, 86) ;
+}
 
 
-
-
-
-
-
-  @keyframes openclose {
-    0% {
-      top: 0.2rem;
-      width: 0;
-    }
-    5% {
-      width: 0;
-    }
-    15% {
-      width: 230px;
-    }
-    30% {
-      top: 0.2rem;
-      width: 230px;
-    }
-    33% {
-      top: 0.2rem;
-      width: 0;
-    }
-    35% {
-      top: 0.2rem;
-      width: 0;
-    }
-    38% {
-      top: -4.5rem;
-      
-    }
-    48% {
-      top: -4.5rem;
-      width: 190px;
-    }
-    62% {
-      top: -4.5rem;
-      width: 190px;
-    }
-    66% {
-      top: -4.5rem;
-      width: 0;
-      text-indent: 0;
-    }
-    71% {
-      top: -9rem;
-      width: 0;
-      text-indent: 5px;
-    }
-    86% {
-      top: -9rem;
-      width: 285px;
-    }
-    95% {
-      top: -9rem;
-      width: 285px;
-    }
-    98% {
-      top: -9rem;
-      width: 0;
-      text-indent: 5px;
-    }
-    100% {
-      top: 0;
-      width: 0;
-      text-indent: 0;
-    }
-  } 
 @media screen and (max-width: 950px) {
     .content-header{
         width: 90%;
@@ -188,9 +79,16 @@
     .social-logo{
         gap: 25px;
     }
-    .message{
-        margin-top: 100px;
-        margin-left: 0px;
-        position: relative;
+    .my-name{
+      height: 150px;
+      flex-direction: column;
     }
+    .my-name h1{
+      font-size: 32px;
+      text-align: center;
+    }
+    .my-name{
+      text-align: center;
+    }
+
 }
