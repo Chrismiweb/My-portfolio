@@ -62,6 +62,9 @@
         font-size: 45px;
         
     }
+    .project-section{
+        margin-top: 60px;
+    }
     .project{
         gap: 20px;
     }
