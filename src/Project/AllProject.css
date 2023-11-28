@@ -77,10 +77,13 @@
 }
 .hello1 p, .hello2 p{
     font-size: 12px;
+    background-color: transparent;
 }
 .hello1 h1, .hello2 h1{
     font-size: 30px;
     font-weight: bolder;
+    background-color: transparent;
+
 }
 .language-btn{
     width: 90%;

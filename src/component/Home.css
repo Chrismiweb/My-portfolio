@@ -80,6 +80,7 @@
         gap: 25px;
     }
     .my-name{
+        margin-top: 70px;
       height: 150px;
       flex-direction: column;
     }

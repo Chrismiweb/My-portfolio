@@ -1,0 +1,38 @@
+.Skills-List{
+    display: flex;
+    justify-content: space-around;
+}
+.AboutMe-Skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.AboutMe-Skills h1{
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgb(255, 53, 86);
+    text-align: center;
+}
+.Skills-category h3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(247, 31, 67);
+}
+.Skills-category p{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:950px) {
+    .Skills-List{
+        flex-direction: column;
+    }
+    .Skills-category h3{
+        font-size: 27px;
+    }
+    .Skills-category p{
+        font-size: 18px;
+    }
+}

@@ -5,11 +5,59 @@
     justify-content: center;
     align-items: center;
 
-}   
-
-
-.AboutMe-video{
-    /* width: 100%; */
-    height: 100px;
-    background-color: teal;
 }
+.AboutMe-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* background-color: salmon; */
+
+}
+.AboutMe-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.AboutMe-text h1{
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgb(255, 53, 86);
+}
+.AboutMe-text p{
+    color: #FFFFFFCC;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.AboutMe-video{
+    width: 25%;
+}
+.AboutMe-video img{
+    width: 100%;
+}
+.AboutMe-video video{
+    width: 100%;
+}
+
+@media screen and (max-width:950px) {
+    .AboutMe-container{
+        width: 90%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .AboutMe-text{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .AboutMe-video{
+        width: 100%;
+    }
+    .AboutMe-text p {
+        font-size: 18px;
+        line-height: 1.4;
+
+    }
+}
+

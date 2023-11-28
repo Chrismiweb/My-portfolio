@@ -22,8 +22,8 @@ function Navbar() {
                <Link to={'/'}><img src={logo} alt="" /></Link>
           </div>
           <button className='mobile-icon' onClick={show}>
-          {mobile ? <IoMdClose /> : <IoMdMenu />}
-        </button>
+               {mobile ? <IoMdClose /> : <IoMdMenu />}
+          </button>
 
           <div className='pages'>
                <Link to={'/'}><p>Home</p></Link>
@@ -33,13 +33,12 @@ function Navbar() {
           </div> 
           
        </nav>
-          <div className={mobile ? "mobile-menu1": 'mobile-menu2'}>
-               <Link to={'/'}><p>Home</p></Link>
-               <Link to={'/AboutPage'}><p>About Me</p></Link>
-               <Link to={'/Allproject'}><p>Projects</p></Link>
-               <Link to={'/Contact'}><p>Contact</p></Link>
-
-          </div>
+       <div className={mobile ? "mobile-menu1": 'mobile-menu2'}>
+          <Link to={'/'}><p>Home</p></Link>
+          <Link to={'/AboutPage'}><p>About Me</p></Link>
+          <Link to={'/Allproject'}><p>Projects</p></Link>
+          <Link to={'/Contact'}><p>Contact</p></Link>
+      </div>
    </div>
    
   )
